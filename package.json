@@ -1,0 +1,23 @@
+{
+  "name": "boi-deploy",
+  "version": "0.0.1",
+  "description": "deploy tool of boi",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:boijs/boi-deploy.git"
+  },
+  "author": "zhoujunpeng <zjp0432@163.com> (http://caiziguoguo.com)",
+  "license": "MIT",
+  "dependencies": {
+    "boi-utils": "0.0.3",
+    "cli-table2": "^0.2.0",
+    "glob": "^7.1.2",
+    "inquirer": "^3.3.0",
+    "lodash": "^4.17.4",
+    "ssh2": "^0.5.5"
+  }
+}
